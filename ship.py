@@ -38,4 +38,7 @@ class Ship(object):
         
         self.screen.blit(self.img, self.rect)
         
+    def center_ship(self):
+        self.center = self.screen_rect.centerx
+        
         
