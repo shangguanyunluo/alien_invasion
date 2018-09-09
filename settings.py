@@ -24,6 +24,6 @@ class Settings(object):
         self.bullets_allowd = 3
         
         # alien move
-        self.fleet_drop_speed = 50
-        self.fleet_direction = 3
+        self.fleet_drop_speed = 10
+        self.fleet_direction = 1
         self.alien_speed_factor = 1
